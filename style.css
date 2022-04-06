@@ -1,0 +1,41 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.container > .begining_web {
+  color: brown;
+  justify-content: left;
+  font-size: 20px;
+}
+h2 {
+  font-size: 50px;
+}
+
+.begining_web {
+  color: black;
+  font-size: 80px;
+}
+.container__photos {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+img {
+  height: 190%;
+  width: 90%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+section .submit {
+  width: 120px;
+  height: 50px;
+  background-color: orangered;
+  border-radius: 10px;
+  float: right;
+  border: none;
+}
